@@ -194,11 +194,13 @@ ul.row {
 .footer ul {
     text-align: right;
 }
+
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
+
 .footer-address {
     color: var(--text-color);
 }
@@ -207,6 +209,6 @@ ul.row {
     display: block;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
